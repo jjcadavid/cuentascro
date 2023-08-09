@@ -37,3 +37,10 @@ function draw() {
   image(imagenEgresos, width * 0.05, height * 0.4);
   image(saldo,width * 0.27, height * 0.65);
 }
+
+function draw() {
+  image(logo,-width*0.1,height*0.02,width*0.5,height*0.4);
+  image(imagenIngresos, width * 0.05, height * 0.15);
+  image(imagenEgresos, width * 0.05, height * 0.4);
+  image(saldo,width * 0.27, height * 0.65);
+}
