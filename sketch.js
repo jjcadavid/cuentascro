@@ -6,13 +6,7 @@ let imagenEgresos;
 let logo;
 let saldo;
 
-function preload() {
-  tabla = loadTable("/Cuentas/ingresosCRO.csv", "csv", "header");
-  imagenIngresos = loadImage("/Imagenes/IngresosCRO.PNG");
-  imagenEgresos = loadImage("Imagenes/egresoCRO.PNG");
-  logo = loadImage("Imagenes/logo2.png");
-  saldo=loadImage("Imagenes/saldoCRO.PNG");
-}
+
 function setup() {
   //createCanvas(windowWidth, windowHeight);
   createCanvas(1920, 1080);
@@ -29,6 +23,11 @@ function setup() {
   print(tabla.rows[0].arr[0]);
   //text(tabla.rows[0].arr[5],0,20);
   //print(listadoPreguntas);
+    tabla = loadTable("/Cuentas/ingresosCRO.csv", "csv", "header");
+  imagenIngresos = loadImage("/Imagenes/IngresosCRO.PNG");
+  imagenEgresos = loadImage("Imagenes/egresoCRO.PNG");
+  logo = loadImage("Imagenes/logo2.png");
+  saldo=loadImage("Imagenes/saldoCRO.PNG");
 }
 
 function draw() {
