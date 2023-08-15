@@ -11,7 +11,7 @@ function setup() {
   background(255);
 
   imagen = loadImage("CUENTRAS cro15082023.png");
-  logo = loadImage("logo2.png");
+  logo = loadImage("CUENTRAS cro15082023.png");
 }
 
 function draw() {
