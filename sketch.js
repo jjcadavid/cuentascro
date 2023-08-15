@@ -10,7 +10,7 @@ function setup() {
   createCanvas(1920, 1080);
   background(255);
 
-  imagen = loadImage("CUENTRAS cro15082023.png");
+  imagen = loadImage("CUENTRAScro15082023.png");
   logo = loadImage("logo2.png");
 }
 
