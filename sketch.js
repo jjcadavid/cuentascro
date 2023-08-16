@@ -17,6 +17,10 @@ function setup() {
 function draw() {
   image(logo,-width*0.1,height*0.02,width*0.5,height*0.4);
   imageMode(CENTER);
-  image(imagen, width * 0.5, height * 0.5);
+  push();
+  translate(width*0.5,height*0.5);
+  scale(0.8);
+  image(imagen, 0 ,0);
+  pop();
 }
 
