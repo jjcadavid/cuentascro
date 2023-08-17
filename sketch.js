@@ -20,8 +20,8 @@ function draw() {
   push();
   translate(width*0.5,height*0.5);
   scale(0.7);
-  image(logo,0,height*0.1);
-  image(imagen, 0 ,0,width, height);
+  image(logo,0,-height*0.4);
+  image(imagen, 0 ,0);
   pop();
 }
 
