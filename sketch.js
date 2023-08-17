@@ -19,8 +19,8 @@ function draw() {
   imageMode(CENTER);
   push();
   translate(width*0.5,height*0.5);
-  scale(0.8);
-  image(imagen, 0 ,0);
+  scale(0.7);
+  image(imagen, 0 ,0,width, height);
   pop();
 }
 
