@@ -19,7 +19,7 @@ function draw() {
   imageMode(CENTER);
   push();
   translate(width*0.5,height*0.5);
-  scale(0.7);
+  scale(0.9);
   image(logo,0,-height*0.4);
   image(imagen, 0 ,0);
   pop();
